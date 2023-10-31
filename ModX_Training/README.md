@@ -1,6 +1,6 @@
 # Preparation：
 
-Use the joint train project to obtain the checkpoint of the RN50 encoder on COCO, or the official open-source ViT.
+Use the joint_train project to obtain the checkpoint of the RN50 encoder on COCO, or the official open-source ViT.
 
 # Run：
 ```
