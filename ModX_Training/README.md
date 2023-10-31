@@ -1,7 +1,10 @@
-Preparation：
+# Preparation：
+
 Use the joint train project to obtain the checkpoint of the RN50 encoder on COCO, or the official open-source ViT.
 
-Run：
+# Run：
+```
 bash modx_5phase.sh
 
-if you want to train ViT model, you just need to add args "--model_name ViT"
+Tips: if you want to train ViT model, you just need to add args "--model_name ViT"
+```
