@@ -1,3 +1,5 @@
-运行：
+# Run:
+```
 bash train.sh
-若要训练ViT 只需要添加 --model_name ViT
+if you want to train ViT, you just need to add args "--model_name ViT" 
+```
