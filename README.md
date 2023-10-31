@@ -1,14 +1,12 @@
 # Mod-X
 The reproduce of paper "Continual Vision-Language Representation Learning with Off-Diagonal Information" **ICML 2023**.
 
-%We will release our code to the public as soon as possible after consulting with our collaborators.
-
 After communicating with collaborators, I have open-sourced the experimental code in this paper, which is based on the COCO and Flickr30K datasets, as an individual. And this code has not been adapted for multi-node large-scale experiments.
 
 This repository includes the following four sections:
 
-* traditional continual finetuning: Continual_Training
-* Joint train with all data/ traditional pretraining：Joint_train 
+* traditional continual finetuning: **Continual_Training**
+* Joint train with all data/ traditional pretraining：**Joint_Train** 
 * Model's linear evaluation based on the DDP: linear_evaluation_ddp  
 * Continual learning based on Mod-X：ModX_Training  
 
