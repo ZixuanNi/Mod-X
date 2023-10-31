@@ -1,8 +1,7 @@
-准备工作：
-使用joint—train工程获得RN50 encoder在COCO上的checkpoint。
-或者官方开源的ViT。
+Preparation：
+Use the joint train project to obtain the checkpoint of the RN50 encoder on COCO, or the official open-source ViT.
 
-运行：
+Run：
 bash modx_5phase.sh
 
-若要训练ViT 只需要添加 --model_name ViT
+if you want to train ViT model, you just need to add args "--model_name ViT"
