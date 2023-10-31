@@ -1,1 +1,1 @@
-You can download coco and f30k data index in [URL.](https://drive.google.com/drive/folders/1vfE9xlIAK2PkeJFtOsHgJv45pHMG1ARA?usp=drive_link)https://drive.google.com/drive/folders/1vfE9xlIAK2PkeJFtOsHgJv45pHMG1ARA?usp=drive_link
+You can download coco and f30k data index in (https://drive.google.com/drive/folders/1vfE9xlIAK2PkeJFtOsHgJv45pHMG1ARA?usp=drive_link)https://drive.google.com/drive/folders/1vfE9xlIAK2PkeJFtOsHgJv45pHMG1ARA?usp=drive_link
