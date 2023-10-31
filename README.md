@@ -7,8 +7,8 @@ This repository includes the following four sections:
 
 * traditional continual finetuning: **Continual_Training**
 * Joint train with all data/ traditional pretraining：**Joint_Train** 
-* Model's linear evaluation based on the DDP: linear_evaluation_ddp  
-* Continual learning based on Mod-X：ModX_Training  
+* Model's linear evaluation based on the DDP: **linear_evaluation_ddp**  
+* Continual learning based on Mod-X：**ModX_Training**  
 
 ## Model:
 You can choose to use the model provided by [OpenAI](https://github.com/openai/CLIP) as the starting model or configure the initial model parameters using your own YAML parameter file. In this repository, I used the following parameters:
