@@ -1,5 +1,5 @@
 # Mod-X
-The reproduce of paper "Continual Vision-Language Representation Learning with Off-Diagonal Information" **ICML 2023**.
+The reproduce of paper "Continual Vision-Language Representation Learning with Off-Diagonal Information" in **ICML 2023**.
 
 After communicating with collaborators, I have open-sourced the experimental code in this paper, which is based on the COCO and Flickr30K datasets, as an individual. And this code has not been adapted for multi-node large-scale experiments.
 
@@ -82,7 +82,7 @@ If you want to train ViT, you just need to add args:
 ```python
 --model_name ViT
 ```
-## Evaluating:
+## Evaluation:
 If you want to evaluate the linear separability of the CLIP model's visual encoder representations, you can 
 ```python
 cd ./linear_evaluation_ddp
