@@ -10,6 +10,36 @@ This repository includes the following four sections:
 * Model's linear evaluation based on the DDP: linear_evaluation_ddp  
 * Continual learning based on Mod-X：ModX_Training  
 
+## Model:
+You can choose to use the model provided by [OpenAI](https://github.com/openai/CLIP) as the starting model or configure the initial model parameters using your own YAML parameter file. In this repository, I used the following parameters:
+```yaml
+RN50: 
+  embed_dim : 1024
+  image_resolution : 224
+  vision_layers : [3, 4, 6, 3]
+  vision_width : 64
+  vision_patch_size : 0 # ideally it should be none
+  context_length : 77
+  vocab_size : 49408
+  transformer_width : 512
+  transformer_heads : 8
+  transformer_layers : 6 # 12 in CLIP
+
+ViTB32:
+  embed_dim : 512
+  image_resolution : 224
+  vision_layers : 12
+  vision_width : 768
+  vision_patch_size : 32 # ideally it should be none
+  context_length : 77
+  vocab_size : 49408
+  transformer_width : 512
+  transformer_heads : 8
+  transformer_layers : 12 # 12 in CLIP
+```
+
+
+
 ## Training:
 ### Joint training:
 ```python
